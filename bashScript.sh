@@ -29,3 +29,6 @@ pip3 install docker
 sudo ln -s /etc/apache2/mods-available/cgi.load  /etc/apache2/mods-enabled
 
 sudo service apache2 reload
+
+
+usermod -aG docker www-data
